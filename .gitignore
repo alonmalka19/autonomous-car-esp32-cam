@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Arduino/PlatformIO artifacts
+*.bin
+*.elf
+*.hex
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
