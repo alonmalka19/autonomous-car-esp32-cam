@@ -1,6 +1,6 @@
 # Autonomous Car with ESP32-CAM & Python
 
-This project implements a small autonomous car controlled by an ESP32-CAM board (used as a microcontroller) and a Python script running on a host computer. A smartphone running the **IP Webcam** app provides the video feed, streaming to the host computer over the local network. The Python script communicates with the ESP32 over HTTP commands and uses a custom YOLO model to detect and track a pair of legs in the camera feed. When the legs move, the car follows them by sending motion commands to the motors via the ESP32.
+This project implements a small autonomous car controlled by an ESP32‑CAM board (used as a microcontroller) and a Python script running on a host computer.  A smartphone running the **IP Webcam** app provides the video feed, streaming to the host computer over the local network.  The Python script communicates with the ESP32 over HTTP commands and uses a custom YOLO model to detect and track a pair of legs in the camera feed.  When the legs move, the car follows them by sending motion commands to the motors via the ESP32.
 
 ## Features
 
@@ -32,7 +32,7 @@ The repository is organised as follows:
 
 ## Getting started
 
-1. **Clone this repository** (or download the files). Make sure you have Python 3 installed on your machine.
+1. **Clone this repository** (or download the files).  Make sure you have Python 3 installed on your machine.
 
 2. **Install Python dependencies**:
 
@@ -53,14 +53,13 @@ You should see the camera feed with a bounding box drawn around the detected leg
 
 ## Hardware
 
-See `docs/hardware.md` for a list of components and wiring instructions. In general, you will need:
+See `docs/hardware.md` for a list of components and wiring instructions.  In general, you will need:
 
 - An **ESP32‑CAM** board (used only as a microcontroller; its built‑in camera is not used)
-- A smartphone with the **IP Webcam** app installed to provide the video stream
+- A smartphone with the **IP Webcam** app installed to provide the video stream
 - An **L298N** or similar motor driver
-- Two **DC motors** with wheels
+- **Four DC motors (two per side)** with wheels
 - A **battery pack**
-- Optionally, an **ultrasonic sensor** for obstacle avoidance
 
 ## License
 
